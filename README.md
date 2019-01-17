@@ -27,17 +27,17 @@ To get set up, run the following
 
 ```no-highlight
   bundle
-  rake db:create
+  bundle exec rake db:create
   rails s
 ```
 
 And navigate to `localhost:3000`.
 
-If you want to populate the database with test data, run `rake db:seed` after creating your migrations and models according to the tests.
+If you want to populate the database with test data, run `bundle exec rake db:seed` after creating your migrations and models according to the tests.
 
 To run your tests, run:
 ```no-highlight
-  rake db:test:prepare
-  rake
+  bundle exec rake db:test:prepare
+  rspec
 ```
 in a separate terminal tab.
