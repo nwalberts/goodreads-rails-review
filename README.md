@@ -17,6 +17,7 @@ Users should be able to:
 
 * Must have a rating
 * Must have a body
+* Review must belong to a book
 
 ### BONUS
 It would be great if you can add new books as well.
