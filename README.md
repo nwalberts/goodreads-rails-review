@@ -1,8 +1,9 @@
-# Goodreads Rails for Raj and for Pandas
+# Goodreads Rails Review for Cool People
+
 Starter code for a review clinic to review the basics of Rails and creating a full stack rails application. You should run your tests, and let their assertions guide your development.
 
 Users should be able to:
-* View a list of all of the books
+* View a list of all of the books from our database
 * Leave a review on a specific book
 * View a show page for a book and its reviews
 
@@ -17,6 +18,7 @@ Users should be able to:
 
 * Must have a rating
 * Must have a body
+* Review must belong to a book
 
 ### BONUS
 It would be great if you can add new books as well.
@@ -26,17 +28,17 @@ To get set up, run the following
 
 ```no-highlight
   bundle
-  rake db:create
+  bundle exec rake db:create
   rails s
 ```
 
 And navigate to `localhost:3000`.
 
-If you want to populate the database with test data, run `rake db:seed` after creating your migrations and models according to the tests.
+If you want to populate the database with test data, run `bundle exec rake db:seed` after creating your migrations and models according to the tests.
 
 To run your tests, run:
 ```no-highlight
-  rake db:test:prepare
-  rake
+  bundle exec rake db:test:prepare
+  rspec
 ```
 in a separate terminal tab.
