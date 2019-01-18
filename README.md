@@ -1,4 +1,4 @@
-# Goodreads Rails
+# Goodreads Rails for Raj and for Pandas
 Starter code for a review clinic to review the basics of Rails and creating a full stack rails application. You should run your tests, and let their assertions guide your development.
 
 Users should be able to:
