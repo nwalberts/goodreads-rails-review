@@ -14,9 +14,6 @@ book_5 = Book.create(title: "Wizard of Earthsea", author: "Roxane Gay", isbn: "5
 book_6 = Book.create(title: "The Witcher", author: "Bryan Stevenson", isbn: "5555555555555")
 book_7 = Book.create(title: "Unicorn Abroad: A Love Story about one Unicorn and one Centaur", author: "Claudia Rankine", isbn: "5555555555555")
 book_7 = Book.create(title: "Between the World and Me", author: "Ta-Nehisi Coates", isbn: "5555555555555")
-book_8 = Book.create(title: "When Breath Becomes Air", author: "Paul Kalanithi", isbn: "5555555555555")
-book_9 = Book.create(title: "A Cup of Water Under My Bed", author: "Daisy Hernandez", isbn: "5555555555555")
-book_10 = Book.create(title: "An Indigenous Peoples' History of the United States", author: "Roxanne Dunbar-Ortiz", isbn: "5555555555555")
 
 # review_1 = Review.create(rating: 5, body:"Not so much a history of the Indigenous Peoples of North America as much as a re-telling of American history that actually includes their unfortunate role within it, which is way more prominent in ways you haven't imagined.
 # This is a succinct, powerful read whose basic premise, the US is a settler-colonial power, screams at you throughout.", book: book_10)

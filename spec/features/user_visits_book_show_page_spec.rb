@@ -6,7 +6,7 @@ feature "user visits a book's show page" do
   let!(:name_of_the_wind_review) { FactoryGirl.create(:review, book: name_of_the_wind) }
   let!(:other_review) { FactoryGirl.create(:review, book: other_book) }
 
-  scenario "user sees a list of books" do
+  scenario "user clicks link to book and sees book details" do
     visit '/'
     click_link 'Name of the Wind'
     expect(page).to have_content(name_of_the_wind.title)
