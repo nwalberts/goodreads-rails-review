@@ -1,13 +1,15 @@
-<h1><%= @book.title %></h1>
-<h2>Author: <%= @book.author %></h2>
-<p><%= @book.isbn %></p>
+<h2>Book: <%= @book.title %> </h2>
+<h4>Author: <%= @book.author %>  </h4>
+<p>ISBN: <%= @book.isbn %> </p>
 
-<% @reviews.each do |review| %>
-  <li>
-    Rating: <%= review.rating %>
-    Body: <%= review.body %>
-  </li>
-<% end %>
+<h3>Reviews: </h3>
 
+<ul>
+  <% @reviews.each do |review| %>
+    <li>
+      <%= review.rating %> | <%= review.body %>
+    </li>
+  <% end %>
+</ul>
 
 <%= link_to "Add a Review", new_book_review_path(@book) %>

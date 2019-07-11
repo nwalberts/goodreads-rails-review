@@ -1,0 +1,23 @@
+<h2>Add a New Book</h2>
+
+<%= form_for(@book) do |f| %>
+
+  <div class="">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="">
+    <%= f.label :author %>
+    <%= f.text_field :author %>
+  </div>
+  
+  <div class="">
+    <%= f.label :isbn %>
+    <%= f.text_field :isbn %>
+
+  </div>
+
+<%= f.submit %>
+
+<% end %>
